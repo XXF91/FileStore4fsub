@@ -115,7 +115,7 @@ async def not_joined(client: Client, message: Message):
             InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ •", url=client.invitelink),
         ],
         [
-            InlineKeyboardButton(text="• ANIME FOLDER •", url=https://t.me/addlist/ykRvH9SlW2A4ZDY1),
+            InlineKeyboardButton('• ANIME FOLDER •', url='https://t.me/addlist/ykRvH9SlW2A4ZDY1'),
         ]
     ]
     try:
