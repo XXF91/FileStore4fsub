@@ -110,13 +110,9 @@ REPLY_ERROR = "<code>Use this command as a reply to any telegram message without
 @Bot.on_message(filters.command('start') & filters.private)
 async def not_joined(client: Client, message: Message):
     buttons = [
-        [
-            InlineKeyboardButton(text="• ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=client.invitelink2),
-            InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ •", url=client.invitelink),
-        ],
-        [
-            InlineKeyboardButton('ANIME FOLDER', url='https://t.me/addlist/ykRvH9SlW2A4ZDY1'),
-        ]
+        [InlineKeyboardButton(text="• ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=client.invitelink2),
+         InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ •", url=client.invitelink)],
+        [InlineKeyboardButton('ANIME FOLDER', url='https://t.me/addlist/ykRvH9SlW2A4ZDY1')]
     ]
     try:
         buttons.append(
