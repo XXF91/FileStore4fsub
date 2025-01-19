@@ -10,25 +10,25 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7519127548:AAHCG8nlbOKeWoy-hGk06VHnc3X-sUgsuQQ")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7461358634:AAHqk9o56O33T6uy8h4rWFFs_GmNwlhzZXc")
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "22418774"))
 #Your API Hash from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "d8c8dab274f9a811814a6a96d044028e")
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002406913004"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002164397675"))
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "Shinchan")
+OWNER = os.environ.get("OWNER", "ؖؖؖؖؖؖؖؖؖ𓆪:ᵛ͢ᵎᵖ ┋ﷺ آلُـِـِِـِِِـِِـِـﮩرمـْـْْـْ آلُـِـِِـِِِـِِـِـڛـ,ـآبـٌـٌٌـٌٌٌـٌٌـٌعٌ ﷺ┋[ࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩ")
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "8114164316"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6169288210"))
 #Port
 PORT = os.environ.get("PORT", "8030")
 #Database
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://admin:AnimeCrewAdmin76@cluster0.qdfs750.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002027914496"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002464652318"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002164397675"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002164397675"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -40,7 +40,7 @@ ABOUT_TXT = "<b>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/Worlds_Of_Anime>Sh
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʙᴀᴋᴋᴀᴀᴀ!! {first}\n\n ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</b>")
 try:
     ADMINS=[6064386294]
-    for x in (os.environ.get("ADMINS", "6064386294").split()):
+    for x in (os.environ.get("ADMINS", "6169288210").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
